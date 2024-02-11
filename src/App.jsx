@@ -1,8 +1,12 @@
+import Navbar from "./assets/components/Navbar/Navbar";
+import PriceOptions from "./assets/components/PriceOptions/PriceOptions";
+
 function App() {
   return (
-    <>
-      <h3 className="text-6xl text-red-500">React Shopping Cart</h3>
-    </>
+    <div className="container mx-auto">
+      <Navbar></Navbar>
+      <PriceOptions></PriceOptions>
+    </div>
   );
 }
 
